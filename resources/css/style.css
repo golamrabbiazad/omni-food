@@ -16,7 +16,7 @@ html {
 }
 
 .clearfix {zoom: 1}
-.clearfix {
+.clearfix::after {
     content: '.';
     clear: both;
     display: block;
@@ -239,10 +239,6 @@ header {
 
 
 /* --- How it work's ----*/
-h2.pad-bot{
-    color: red;
-    padding-top: 100px; 
-}
 
 .section-steps {
     background: #f4f4f4;
@@ -277,8 +273,8 @@ h2.pad-bot{
     border: 2px solid #e67e22;
     display: inline-block;
     border-radius: 50%;
-    height: 55px;
-    width: 55px;
+    height: 50px;
+    width: 50px;
     text-align: center;
     padding: 5px;
     float: left;
@@ -291,3 +287,4 @@ h2.pad-bot{
     width: auto;
     margin-right: 10px;
 }
+
